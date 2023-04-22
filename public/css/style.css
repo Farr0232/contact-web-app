@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-top: 100px;
+}
+
+.glass {
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 10px 10px -5px #5e5e5e;
+}
+
+.contact-name {
+    color: orange;
+}
+
+.contact-name:hover {
+    color: #353535;
+}
